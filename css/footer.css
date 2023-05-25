@@ -1,0 +1,309 @@
+footer{
+    display: flex;
+    background: rgb(252, 252, 252);
+    border-top: 1px solid rgb(79, 79, 79);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-style: dashed;
+    width: 70%;
+    margin: auto;
+    padding: 0;
+    justify-content:center;
+    align-items:start;
+    flex-wrap: wrap;
+}
+
+.div-footer{
+    width: max-content;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: start;
+    padding: 20px;;
+    margin: 0;
+}
+
+
+.div-footer-column1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    font-size: 17px;
+    font-family: 'Source Serif Pro', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.div-footer-column2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: start;
+    font-size: 17px;
+    font-family: 'Source Serif Pro', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.div-footer-column1 > li:first-child{
+    align-self: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+}
+
+.div-footer-column2 > li:first-child{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+}
+
+.img-footer1{
+    width: 300px;
+    height: 260px;
+    border: 2px solid #3A6B3E;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+
+@media only screen and (max-width:1500px){
+footer{
+    display: flex;
+    background: rgb(252, 252, 252);
+    border-top: 1px solid rgb(79, 79, 79);
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-style: dashed;
+    width: 100%;
+    margin-top: 5%;
+    margin: auto;
+    padding: 0;
+    justify-content:center;
+    align-items:start;
+    flex-wrap: wrap;
+}
+
+.div-footer{
+    width: max-content;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: start;
+    padding: 20px;;
+    margin: 0;
+}
+
+
+.div-footer-column1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    font-size: 17px;
+    font-family: 'Source Serif Pro', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.div-footer-column2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: start;
+    font-size: 17px;
+    font-family: 'Source Serif Pro', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.div-footer-column1 > li:first-child{
+    align-self: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+}
+
+.div-footer-column2 > li:first-child{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+}
+
+.img-footer1{
+    width: 300px;
+    height: 260px;
+    border: 2px solid #3A6B3E;
+}
+
+ul{
+    list-style-type: none;
+}
+}
+
+
+@media only screen and (max-width:1500px){
+    footer{
+        display: flex;
+        background: rgb(252, 252, 252);
+        border-top: 1px solid rgb(79, 79, 79);
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+        border-style: dashed;
+        width: 100%;
+        margin-top: 5%;
+        margin: auto;
+        padding: 0;
+        justify-content:center;
+        align-items:start;
+        flex-wrap: wrap;
+    }
+    
+    .div-footer{
+        width: max-content;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: start;
+        padding: 20px;;
+        margin: 0;
+    }
+    
+    
+    .div-footer-column1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        font-size: 19px;
+        font-family: 'Source Serif Pro', serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .div-footer-column2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: start;
+        font-size: 19px;
+        font-family: 'Source Serif Pro', serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .div-footer-column1 > li:first-child{
+        align-self: center;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .div-footer-column2 > li:first-child{
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .img-footer1{
+        width: 300px;
+        height: 260px;
+        border: 2px solid #3A6B3E;
+    }
+    
+    ul{
+        list-style-type: none;
+    }
+    }
+
+
+@media only screen and (max-width:600px){
+    footer{
+        display: flex;
+        background: rgb(252, 252, 252);
+        border-top: 1px solid rgb(79, 79, 79);
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+        border-style: dashed;
+        width: 100%;
+        margin-top: 5%;
+        margin: auto;
+        padding: 0;
+        justify-content:center;
+        align-items:start;
+        flex-wrap: wrap;
+    }
+    
+    .div-footer{
+        width: max-content;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: start;
+        padding: 20px;;
+        margin: 0;
+    }
+    
+    
+    .div-footer-column1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        font-family: 'Source Serif Pro', serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .div-footer-column2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: start;
+        font-size: 15px;
+        font-family: 'Source Serif Pro', serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .div-footer-column1 > li:first-child{
+        align-self: center;
+        margin-bottom: 10px;
+        font-size: 17px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .div-footer-column2 > li:first-child{
+        margin-bottom: 10px;
+        font-size: 17px;
+        font-family: 'Staatliches', cursive;
+    }
+    
+    .img-footer1{
+        width: 300px;
+        height: 260px;
+        border: 2px solid #3A6B3E;
+    }
+    
+    ul{
+        list-style-type: none;
+    }
+    }

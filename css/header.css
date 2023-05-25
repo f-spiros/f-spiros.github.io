@@ -1,0 +1,328 @@
+@media only screen and (min-width:1500px){
+header{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    justify-content:center;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 0;
+    margin: 0 ;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+
+.div1{
+    width: 50%;
+    padding: 0;
+    margin: 0 0 0 25%;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Domine', serif;
+    font-size: 25px;
+    font-style: normal;
+    color:#3A6B3E;
+}
+
+.div2{
+    width: 9%;
+    padding: 0;
+    margin: 0 4% 0 0%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.div3{
+    width: max-content;
+    padding: 0;
+    margin: 0;
+    margin-right: 10px; 
+}
+
+.div4{        
+    width: max-content;
+    padding: 0;
+    margin: 0;
+}
+
+.a1{
+    display: flex;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.a2{
+    display: flex;
+    flex-direction: row;    
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.divp1{
+    color: #3A6B3E;
+    font-size: 15px;
+    padding: 0;
+}
+
+.img1{
+    height: 20px; 
+    width: 20px;
+}
+
+.div7{
+    box-shadow: rgb(134, 134, 134) 0 0 5px 0;
+    /*position:fixed;*/
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.div8:visited{
+    color: #3a6b3e;
+}
+
+:hover .div8{
+    color: #3a6b3eae;
+    text-underline-offset:unset;
+    text-decoration-line: none;
+}
+
+:hover .divp1{
+    color: #3a6b3eb0;
+    text-underline-offset:unset;
+    text-decoration-line: none;
+}
+
+:link, .div8,.divp1 {
+    list-style: none;
+    line-height: o;
+    text-decoration-line: none;
+}
+}
+
+
+@media only screen and (max-width:1500px){
+header{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    justify-content:space-between;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 0;
+    margin: 0 ;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+
+.div1{
+    width: 47%;
+    padding: 0;
+    margin: 0 0 0 28%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+    font-family: 'Domine', serif;
+    font-size: 23px;
+    font-style: normal;
+    color:#3A6B3E;
+}
+
+.div2{
+    width: 15%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.div3{
+    padding: 0;
+    margin: auto;
+}
+
+.div4{
+    padding: 0;
+    margin: auto;
+    
+}
+
+.a1{
+    display: flex;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.a2{
+    display: flex;
+    flex-direction: row;    
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.divp1{
+    color: #3A6B3E;
+    font-size: 15;
+    padding: 0;
+}
+
+.img1{
+    height: 23px; 
+    width: 23px;
+}
+
+.div7{
+    box-shadow: rgb(134, 134, 134) 0 0 5px 0;
+    /*position:fixed;*/
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.div8:visited{
+    color: #3a6b3e;
+}
+
+:hover .div8{
+    color: #3a6b3eae;
+    text-underline-offset:unset;
+    text-decoration-line: none;
+}
+
+:hover .divp1{
+    color: #3a6b3eb0;
+    text-underline-offset:unset;
+    text-decoration-line: none;
+}
+
+:link, .div8,.divp1 {
+    list-style: none;
+    line-height: o;
+    text-decoration-line: none;
+}
+}
+
+@media only screen and (max-width:1100px){
+
+    .div1{
+        width: 47%;
+        padding: 0;
+        margin: 0 0 0 28%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        
+        font-family: 'Domine', serif;
+        font-size: 25px;
+        font-style: normal;
+        color:#3A6B3E;
+    }
+    
+    .div2{
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .divp1{
+        color: #3A6B3E;
+        font-size: 0;
+        padding: 0;
+    }
+    
+
+    .div3{
+        padding: 0;
+        margin: auto;
+    }
+    
+    .div4{
+        padding: 0;
+        margin: auto;
+        
+    }
+
+    .img1{
+        height: 25px; 
+        width: 25px;
+    }
+    
+}
+
+
+@media only screen and (max-width:600px){
+
+    .div1{
+        width: 47%;
+        padding: 0;
+        margin: 0 0 0 22%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        
+        font-family: 'Domine', serif;
+        font-size: 25px;
+        font-style: normal;
+        color:#3A6B3E;
+    }
+    
+    .div2{
+        width: 15%;
+        margin: 0 5% 0 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .divp1{
+        color: #3A6B3E;
+        font-size: 0;
+        padding: 0;
+    }
+    
+    .div3{
+        padding: 0;
+        margin: auto;
+    }
+    
+    .div4{
+        padding: 0;
+        margin: auto;
+        
+    }
+
+    .img1{
+        height: 25px; 
+        width:25px;
+    }
+    
+}
